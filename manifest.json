@@ -1,0 +1,27 @@
+{
+  "name": "VidFast Repo",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "VidFast",
+      "name": "VidFast",
+      "description": "Fast movie and TV streaming from VidFast network — multi-quality HLS streams",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vidfast.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://nvmindl.duckdns.org/nuvio/Assets/vidfast.png",
+      "contentLanguage": [
+        "en"
+      ]
+    }
+  ]
+}
